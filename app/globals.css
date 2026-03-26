@@ -1,0 +1,29 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: sans-serif;
+  background: #f5f7fa;
+  color: #1f2329;
+}
+
+main {
+  display: grid;
+  gap: 16px;
+  min-height: 100vh;
+  place-content: center;
+  padding: 24px;
+}
+
+h1,
+p {
+  margin: 0;
+}
